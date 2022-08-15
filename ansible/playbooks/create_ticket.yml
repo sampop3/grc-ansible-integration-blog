@@ -54,8 +54,7 @@
           short_description: "ACM {{ policy_name }} violation"
           description:
             "{{ policy_name }} violation: one or more certificates are expiring soon in a secret in
-            the namespace {{ target_namespace }} on the clusters:
-            {{ target_clusters | join(', ') }}"
+            the namespace {{ target_namespace }} on"
           priority: 2
           severity: 2
       environment:
